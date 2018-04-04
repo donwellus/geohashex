@@ -1,0 +1,16 @@
+{
+  "name": "geohashex",
+  "version": "1.0.0",
+  "description": "Extract kml coordinates and convert to geohashes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Tré <daniel.tre@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "polygon-hash": "git://github.com/donwellus/polygon-hash.git",
+    "xmldom": "0.1.27",
+    "@mapbox/togeojson": "0.16.0"
+  }
+}
